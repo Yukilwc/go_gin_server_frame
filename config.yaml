@@ -1,3 +1,6 @@
+jwt:
+  expires-time: 7d
+  buffer-time: 1d
 # auto config
 autocode:
   root: "" # 根路径
