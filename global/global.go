@@ -10,5 +10,5 @@ import (
 var (
 	GGG_VP     *viper.Viper // 全局Viper
 	GGG_LOG    *zap.Logger
-	GGG_CONFIG config.Server
+	GGG_CONFIG config.Server // 存放从yaml配置文件读取的结构体
 )
