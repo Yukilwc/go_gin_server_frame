@@ -9,5 +9,5 @@ import (
 func main() {
 	global.GGG_VP = core.Viper()
 	initialize.OtherInit()
-	// global.GGG_LOG = core.Zap()
+	global.GGG_LOG = core.Zap()
 }
