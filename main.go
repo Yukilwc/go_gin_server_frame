@@ -10,6 +10,7 @@ func main() {
 	global.GGG_VP = core.Viper()
 	initialize.OtherInit()
 	global.GGG_LOG = core.Zap()
-	global.GGG_LOG.Info("Zap初始化完成")
+	// global.GGG_LOG.Info("Zap初始化完成")
+	// global.GGG_LOG.Debug("开发打印日志")
 	// global.GGG_LOG.DPanic("退出了")
 }
