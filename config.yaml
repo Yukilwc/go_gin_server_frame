@@ -4,3 +4,12 @@ jwt:
 # auto config
 autocode:
   root: "" # 根路径
+zap:
+  level: info # 打印日志级别，第一此级别不打印
+  format: console
+  prefix: "[github.com/Yukilwc/go_gin_server_frame]"
+  director: log
+  show-line: true
+  encode-level: LowercaseLevelEncoder
+  stacktrace-key: stacktrace
+  log-in-console: true
